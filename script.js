@@ -1,5 +1,6 @@
 const tombol = document.getElemenyById('sapaButton');
 function aksi(){
-  alert("hutram")
+  alert("hutram");
+  window.confirm();
 }
-tombol.addEventListener('click', aksi)
+tombol.addEventListener('click', aksi);
