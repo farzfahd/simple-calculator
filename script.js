@@ -1,4 +1,9 @@
 const tombolSapa = document.getElementById('sapaButton')
 tombolSapa.addEventListener('click', function() {
-    alert('Halo! Matur Nuwun sampun berkunjung!')
+    const isConfirmed = window.confirm('Apakah anda sayang saya?')
+    if (isConfirmed) {
+        alert('SAYA JUGA SAYANG KAMU!')
+    } else {
+        alert('oh...')
+    }
 })
