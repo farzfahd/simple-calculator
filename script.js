@@ -1,4 +1,4 @@
-const tombol = document.getElemenyById('sapaButton');
+const tombol = document.getElementById('sapaButton');
 function aksi(){
   alert("hutram");
   window.confirm();
